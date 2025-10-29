@@ -12,3 +12,5 @@
 <img width="870" height="195" alt="image" src="https://github.com/user-attachments/assets/c7f87a90-9972-487f-80cf-3a64f6e51f60" />
 
 --------------------------------------------------------------------
+4. git add . && git commit -m "Your commit message here"
+   - We can add and commit changes in same command
