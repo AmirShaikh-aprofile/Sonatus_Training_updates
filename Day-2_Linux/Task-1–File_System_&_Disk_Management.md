@@ -33,6 +33,15 @@ Command: sudo mkfs.ext4 /dev/nvme1n1
 <img width="1126" height="147" alt="image" src="https://github.com/user-attachments/assets/a0f31736-0764-4bc3-af5d-7f99bc157284" />
 
 -----------
+6. Created a dummy file to fill the disk
+<img width="1274" height="207" alt="image" src="https://github.com/user-attachments/assets/90c94a56-8b4c-4d0e-847b-978d2aedb543" />
+
+----------
+7. Mounted disk with noexec and nodev options and veriffied the behavior.
+<img width="1189" height="156" alt="image" src="https://github.com/user-attachments/assets/7cb61899-65ca-4c4a-94e7-f419852938b8" />
+<img width="1013" height="167" alt="image" src="https://github.com/user-attachments/assets/bfbe0da9-cd0c-4dbc-9f48-e3ccd96a62fd" />
+
+---------
 
 Step	Command	Description
 1	lsblk -f	List disks & filesystems
