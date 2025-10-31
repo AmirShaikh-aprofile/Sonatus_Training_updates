@@ -1,0 +1,10 @@
+# Task-4-Logs_Troubleshooting
+
+1. Analyze Authentication Failures
+```bash
+# Follow authentication logs in real-time
+sudo tail -f /var/log/auth.log
+
+# Search for failed SSH logins
+sudo grep "Failed password" /var/log/auth.log
+```
